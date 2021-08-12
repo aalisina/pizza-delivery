@@ -3,7 +3,7 @@ import React from "react";
 function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg">
+      <nav className="navbar navbar-expand-lg shadow-lg p-3 mb-5 bg-white rounded">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             Pizza Delivery
