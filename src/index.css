@@ -19,3 +19,11 @@ code {
 .navbar-brand {
   color: black;
 }
+
+h1 {
+  font-size: 20px;
+}
+
+.flex-container {
+  display: flex !important;
+}
