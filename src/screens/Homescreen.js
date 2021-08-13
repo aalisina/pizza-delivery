@@ -8,7 +8,7 @@ function Homescreen() {
             <div className="row">
                 {pizzas.map(pizza=> {
                     return <div className="col-md-4">
-                                <div>
+                                <div className="m-3">
                                     <Pizza pizza={pizza} />
                                 </div>
                             </div>
