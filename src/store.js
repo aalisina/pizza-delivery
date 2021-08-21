@@ -3,7 +3,7 @@ import { createStore, applyMiddleware } from "redux";
 import thunk from "redux-thunk";
 import { composeWithDevTools } from "redux-devtools-extension";
 import { getAllPizzasReducers } from "./reducers/pizzaReducers";
-getAllPizzasReducers
+import { getAllPizzasReducers }from './reducers/pizzaReducers'
 
 const finalReducer = combineReducers({
     getAllPizzasReducers: getAllPizzasReducers
